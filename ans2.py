@@ -1,4 +1,4 @@
-def error_handling_lab():
+def error_handling():
     filename = input("Enter filename: ")
     try:
         with open(filename, "r") as f:
@@ -13,4 +13,5 @@ def error_handling_lab():
         print(f"❌ Unexpected error: {e}")
 
 
-error_handling_lab()
+error_handling()
+
